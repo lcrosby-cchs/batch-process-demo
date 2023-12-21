@@ -1,0 +1,712 @@
+2023-12-21T09:31:33.525-05:00  INFO 110504 --- [main] c.c.b.BatchProcessDemoApplication        : Starting BatchProcessDemoApplication using Java 17.0.9 with PID 110504 (C:\Users\lcrosby\tutorials\spring-batch\batch-process-demo\target\classes started by lcrosby in C:\Users\lcrosby\tutorials\spring-batch\batch-process-demo)
+2023-12-21T09:31:33.533-05:00  INFO 110504 --- [main] c.c.b.BatchProcessDemoApplication        : No active profile set, falling back to 1 default profile: "default"
+2023-12-21T09:31:39.698-05:00  INFO 110504 --- [main] c.c.b.BatchProcessDemoApplication        : Started BatchProcessDemoApplication in 8.263 seconds (process running for 9.924)
+2023-12-21T09:39:43.934-05:00  INFO 16128 --- [main] c.c.b.BatchProcessDemoApplication        : Starting BatchProcessDemoApplication using Java 17.0.9 with PID 16128 (C:\Users\lcrosby\tutorials\spring-batch\batch-process-demo\target\classes started by lcrosby in C:\Users\lcrosby\tutorials\spring-batch\batch-process-demo)
+2023-12-21T09:39:43.936-05:00  INFO 16128 --- [main] c.c.b.BatchProcessDemoApplication        : No active profile set, falling back to 1 default profile: "default"
+2023-12-21T09:39:44.792-05:00  INFO 16128 --- [main] c.c.b.BatchProcessDemoApplication        : Started BatchProcessDemoApplication in 1.15 seconds (process running for 1.363)
+2023-12-21T09:40:51.145-05:00  INFO 113296 --- [main] c.c.b.BatchProcessDemoApplication        : Starting BatchProcessDemoApplication using Java 17.0.9 with PID 113296 (C:\Users\lcrosby\tutorials\spring-batch\batch-process-demo\target\classes started by lcrosby in C:\Users\lcrosby\tutorials\spring-batch\batch-process-demo)
+2023-12-21T09:40:51.147-05:00  INFO 113296 --- [main] c.c.b.BatchProcessDemoApplication        : No active profile set, falling back to 1 default profile: "default"
+2023-12-21T09:40:51.984-05:00  INFO 113296 --- [main] c.c.b.BatchProcessDemoApplication        : Started BatchProcessDemoApplication in 1.133 seconds (process running for 1.371)
+2023-12-21T09:40:52.048-05:00  INFO 113296 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Tessely, lastName=Ron] into Person[firstName=TESSELY, lastName=RON]
+2023-12-21T09:40:52.051-05:00  INFO 113296 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Gayden, lastName=Audrey] into Person[firstName=GAYDEN, lastName=AUDREY]
+2023-12-21T09:40:52.051-05:00  INFO 113296 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Gleadall, lastName=Barry] into Person[firstName=GLEADALL, lastName=BARRY]
+2023-12-21T09:40:52.059-05:00  INFO 113296 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Fnu, lastName=Himani] into Person[firstName=FNU, lastName=HIMANI]
+2023-12-21T09:40:52.059-05:00  INFO 113296 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Jullapally, lastName=Devender] into Person[firstName=JULLAPALLY, lastName=DEVENDER]
+2023-12-21T09:40:52.059-05:00  INFO 113296 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Xia, lastName=Jin] into Person[firstName=XIA, lastName=JIN]
+2023-12-21T09:40:52.061-05:00  INFO 113296 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Crosby, lastName=Luis] into Person[firstName=CROSBY, lastName=LUIS]
+2023-12-21T09:40:52.062-05:00  INFO 113296 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Shanmugasundaram, lastName=Pradeepa] into Person[firstName=SHANMUGASUNDARAM, lastName=PRADEEPA]
+2023-12-21T09:40:52.062-05:00  INFO 113296 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Cabello, lastName=Ernesto] into Person[firstName=CABELLO, lastName=ERNESTO]
+2023-12-21T09:40:52.064-05:00  INFO 113296 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Zamora, lastName=Diana] into Person[firstName=ZAMORA, lastName=DIANA]
+2023-12-21T09:40:52.064-05:00  INFO 113296 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Ominsky, lastName=Sammy] into Person[firstName=OMINSKY, lastName=SAMMY]
+2023-12-21T09:40:52.069-05:00  INFO 113296 --- [main] c.c.b.JobCompletionNotificationListener  : Job is completed!!!
+2023-12-21T09:40:52.072-05:00  INFO 113296 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=TESSELY, lastName=RON]}> in the database
+2023-12-21T09:40:52.072-05:00  INFO 113296 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=GAYDEN, lastName=AUDREY]}> in the database
+2023-12-21T09:40:52.072-05:00  INFO 113296 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=GLEADALL, lastName=BARRY]}> in the database
+2023-12-21T09:40:52.072-05:00  INFO 113296 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=FNU, lastName=HIMANI]}> in the database
+2023-12-21T09:40:52.072-05:00  INFO 113296 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=JULLAPALLY, lastName=DEVENDER]}> in the database
+2023-12-21T09:40:52.072-05:00  INFO 113296 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=XIA, lastName=JIN]}> in the database
+2023-12-21T09:40:52.072-05:00  INFO 113296 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=CROSBY, lastName=LUIS]}> in the database
+2023-12-21T09:40:52.072-05:00  INFO 113296 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=SHANMUGASUNDARAM, lastName=PRADEEPA]}> in the database
+2023-12-21T09:40:52.072-05:00  INFO 113296 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=CABELLO, lastName=ERNESTO]}> in the database
+2023-12-21T09:40:52.072-05:00  INFO 113296 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=ZAMORA, lastName=DIANA]}> in the database
+2023-12-21T09:40:52.072-05:00  INFO 113296 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=OMINSKY, lastName=SAMMY]}> in the database
+2023-12-21T09:41:05.544-05:00  INFO 103720 --- [main] c.c.b.BatchProcessDemoApplication        : Starting BatchProcessDemoApplication using Java 17.0.9 with PID 103720 (C:\Users\lcrosby\tutorials\spring-batch\batch-process-demo\target\classes started by lcrosby in C:\Users\lcrosby\tutorials\spring-batch\batch-process-demo)
+2023-12-21T09:41:05.546-05:00  INFO 103720 --- [main] c.c.b.BatchProcessDemoApplication        : No active profile set, falling back to 1 default profile: "default"
+2023-12-21T09:41:06.394-05:00  INFO 103720 --- [main] c.c.b.BatchProcessDemoApplication        : Started BatchProcessDemoApplication in 1.147 seconds (process running for 1.367)
+2023-12-21T09:41:06.455-05:00  INFO 103720 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Tessely, lastName=Ron] into Person[firstName=TESSELY, lastName=RON]
+2023-12-21T09:41:06.459-05:00  INFO 103720 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Gayden, lastName=Audrey] into Person[firstName=GAYDEN, lastName=AUDREY]
+2023-12-21T09:41:06.460-05:00  INFO 103720 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Gleadall, lastName=Barry] into Person[firstName=GLEADALL, lastName=BARRY]
+2023-12-21T09:41:06.467-05:00  INFO 103720 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Fnu, lastName=Himani] into Person[firstName=FNU, lastName=HIMANI]
+2023-12-21T09:41:06.468-05:00  INFO 103720 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Jullapally, lastName=Devender] into Person[firstName=JULLAPALLY, lastName=DEVENDER]
+2023-12-21T09:41:06.468-05:00  INFO 103720 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Xia, lastName=Jin] into Person[firstName=XIA, lastName=JIN]
+2023-12-21T09:41:06.470-05:00  INFO 103720 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Crosby, lastName=Luis] into Person[firstName=CROSBY, lastName=LUIS]
+2023-12-21T09:41:06.471-05:00  INFO 103720 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Shanmugasundaram, lastName=Pradeepa] into Person[firstName=SHANMUGASUNDARAM, lastName=PRADEEPA]
+2023-12-21T09:41:06.471-05:00  INFO 103720 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Cabello, lastName=Ernesto] into Person[firstName=CABELLO, lastName=ERNESTO]
+2023-12-21T09:41:06.473-05:00  INFO 103720 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Zamora, lastName=Diana] into Person[firstName=ZAMORA, lastName=DIANA]
+2023-12-21T09:41:06.473-05:00  INFO 103720 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Ominsky, lastName=Sammy] into Person[firstName=OMINSKY, lastName=SAMMY]
+2023-12-21T09:41:06.478-05:00  INFO 103720 --- [main] c.c.b.JobCompletionNotificationListener  : Job is completed!!!
+2023-12-21T09:41:06.480-05:00  INFO 103720 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=TESSELY, lastName=RON]}> in the database
+2023-12-21T09:41:06.481-05:00  INFO 103720 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=GAYDEN, lastName=AUDREY]}> in the database
+2023-12-21T09:41:06.481-05:00  INFO 103720 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=GLEADALL, lastName=BARRY]}> in the database
+2023-12-21T09:41:06.481-05:00  INFO 103720 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=FNU, lastName=HIMANI]}> in the database
+2023-12-21T09:41:06.481-05:00  INFO 103720 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=JULLAPALLY, lastName=DEVENDER]}> in the database
+2023-12-21T09:41:06.481-05:00  INFO 103720 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=XIA, lastName=JIN]}> in the database
+2023-12-21T09:41:06.481-05:00  INFO 103720 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=CROSBY, lastName=LUIS]}> in the database
+2023-12-21T09:41:06.481-05:00  INFO 103720 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=SHANMUGASUNDARAM, lastName=PRADEEPA]}> in the database
+2023-12-21T09:41:06.481-05:00  INFO 103720 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=CABELLO, lastName=ERNESTO]}> in the database
+2023-12-21T09:41:06.481-05:00  INFO 103720 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=ZAMORA, lastName=DIANA]}> in the database
+2023-12-21T09:41:06.481-05:00  INFO 103720 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=OMINSKY, lastName=SAMMY]}> in the database
+2023-12-21T10:01:43.281-05:00  INFO 54896 --- [main] c.c.b.BatchProcessDemoApplicationTests   : Starting BatchProcessDemoApplicationTests using Java 17.0.9 with PID 54896 (started by lcrosby in C:\Users\lcrosby\tutorials\spring-batch\batch-process-demo)
+2023-12-21T10:01:43.284-05:00  INFO 54896 --- [main] c.c.b.BatchProcessDemoApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2023-12-21T10:01:44.747-05:00  INFO 54896 --- [main] c.c.b.BatchProcessDemoApplicationTests   : Started BatchProcessDemoApplicationTests in 1.841 seconds (process running for 3.115)
+2023-12-21T10:01:44.846-05:00  INFO 54896 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Gleadall, lastName=Barry] into Person[firstName=GLEADALL, lastName=BARRY]
+2023-12-21T10:01:44.851-05:00  INFO 54896 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Tessely, lastName=Ron] into Person[firstName=TESSELY, lastName=RON]
+2023-12-21T10:01:44.851-05:00  INFO 54896 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Gayden, lastName=Audrey] into Person[firstName=GAYDEN, lastName=AUDREY]
+2023-12-21T10:01:44.865-05:00  INFO 54896 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Jullapally, lastName=Devender] into Person[firstName=JULLAPALLY, lastName=DEVENDER]
+2023-12-21T10:01:44.865-05:00  INFO 54896 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Fnu, lastName=Himani] into Person[firstName=FNU, lastName=HIMANI]
+2023-12-21T10:01:44.865-05:00  INFO 54896 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Xia, lastName=Jin] into Person[firstName=XIA, lastName=JIN]
+2023-12-21T10:01:44.871-05:00  INFO 54896 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Crosby, lastName=Luis] into Person[firstName=CROSBY, lastName=LUIS]
+2023-12-21T10:01:44.871-05:00  INFO 54896 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Shanmugasundaram, lastName=Pradeepa] into Person[firstName=SHANMUGASUNDARAM, lastName=PRADEEPA]
+2023-12-21T10:01:44.872-05:00  INFO 54896 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Cabello, lastName=Ernesto] into Person[firstName=CABELLO, lastName=ERNESTO]
+2023-12-21T10:01:44.876-05:00  INFO 54896 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Zamora, lastName=Diana] into Person[firstName=ZAMORA, lastName=DIANA]
+2023-12-21T10:01:44.877-05:00  INFO 54896 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Ominsky, lastName=Sammy] into Person[firstName=OMINSKY, lastName=SAMMY]
+2023-12-21T10:01:44.886-05:00  INFO 54896 --- [main] c.c.b.JobCompletionNotificationListener  : Job is completed!!!
+2023-12-21T10:01:44.893-05:00  INFO 54896 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=GLEADALL, lastName=BARRY]}> in the database
+2023-12-21T10:01:44.893-05:00  INFO 54896 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=TESSELY, lastName=RON]}> in the database
+2023-12-21T10:01:44.893-05:00  INFO 54896 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=GAYDEN, lastName=AUDREY]}> in the database
+2023-12-21T10:01:44.894-05:00  INFO 54896 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=JULLAPALLY, lastName=DEVENDER]}> in the database
+2023-12-21T10:01:44.894-05:00  INFO 54896 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=FNU, lastName=HIMANI]}> in the database
+2023-12-21T10:01:44.894-05:00  INFO 54896 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=XIA, lastName=JIN]}> in the database
+2023-12-21T10:01:44.894-05:00  INFO 54896 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=CROSBY, lastName=LUIS]}> in the database
+2023-12-21T10:01:44.894-05:00  INFO 54896 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=SHANMUGASUNDARAM, lastName=PRADEEPA]}> in the database
+2023-12-21T10:01:44.894-05:00  INFO 54896 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=CABELLO, lastName=ERNESTO]}> in the database
+2023-12-21T10:01:44.895-05:00  INFO 54896 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=ZAMORA, lastName=DIANA]}> in the database
+2023-12-21T10:01:44.895-05:00  INFO 54896 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=OMINSKY, lastName=SAMMY]}> in the database
+2023-12-21T10:01:44.902-05:00 ERROR 54896 --- [main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener] to prepare test instance [com.cinchhs.batchprocessdemo.BatchProcessDemoApplicationTests@23cbbd07]
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.cinchhs.batchprocessdemo.BatchProcessDemoApplicationTests': Unsatisfied dependency expressed through field 'jobLauncherTestUtils': No qualifying bean of type 'org.springframework.batch.test.JobLauncherTestUtils' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:772) ~[spring-beans-6.1.1.jar:6.1.1]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:752) ~[spring-beans-6.1.1.jar:6.1.1]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145) ~[spring-beans-6.1.1.jar:6.1.1]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:493) ~[spring-beans-6.1.1.jar:6.1.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1420) ~[spring-beans-6.1.1.jar:6.1.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:397) ~[spring-beans-6.1.1.jar:6.1.1]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:142) ~[spring-test-6.1.1.jar:6.1.1]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:97) ~[spring-test-6.1.1.jar:6.1.1]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:247) ~[spring-test-6.1.1.jar:6.1.1]
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:163) ~[spring-test-6.1.1.jar:6.1.1]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$10(ClassBasedTestDescriptor.java:378) ~[junit-jupiter-engine-5.10.1.jar:5.10.1]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:383) ~[junit-jupiter-engine-5.10.1.jar:5.10.1]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$11(ClassBasedTestDescriptor.java:378) ~[junit-jupiter-engine-5.10.1.jar:5.10.1]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[na:na]
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310) ~[na:na]
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735) ~[na:na]
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[na:na]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:377) ~[junit-jupiter-engine-5.10.1.jar:5.10.1]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:290) ~[junit-jupiter-engine-5.10.1.jar:5.10.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:289) ~[junit-jupiter-engine-5.10.1.jar:5.10.1]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:279) ~[junit-jupiter-engine-5.10.1.jar:5.10.1]
+	at java.base/java.util.Optional.orElseGet(Optional.java:364) ~[na:na]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:278) ~[junit-jupiter-engine-5.10.1.jar:5.10.1]
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31) ~[junit-jupiter-engine-5.10.1.jar:5.10.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106) ~[junit-jupiter-engine-5.10.1.jar:5.10.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105) ~[junit-jupiter-engine-5.10.1.jar:5.10.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.10.1.jar:5.10.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:123) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:123) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:90) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198) ~[junit-platform-launcher-1.10.1.jar:1.10.1]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169) ~[junit-platform-launcher-1.10.1.jar:1.10.1]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93) ~[junit-platform-launcher-1.10.1.jar:1.10.1]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58) ~[junit-platform-launcher-1.10.1.jar:1.10.1]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141) ~[junit-platform-launcher-1.10.1.jar:1.10.1]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57) ~[junit-platform-launcher-1.10.1.jar:1.10.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103) ~[junit-platform-launcher-1.10.1.jar:1.10.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85) ~[junit-platform-launcher-1.10.1.jar:1.10.1]
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47) ~[junit-platform-launcher-1.10.1.jar:1.10.1]
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63) ~[junit-platform-launcher-1.10.1.jar:1.10.1]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57) ~[junit5-rt.jar:na]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38) ~[junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11) ~[idea_rt.jar:na]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35) ~[junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235) ~[junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54) ~[junit-rt.jar:na]
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.batch.test.JobLauncherTestUtils' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1878) ~[spring-beans-6.1.1.jar:6.1.1]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1404) ~[spring-beans-6.1.1.jar:6.1.1]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1348) ~[spring-beans-6.1.1.jar:6.1.1]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:769) ~[spring-beans-6.1.1.jar:6.1.1]
+	... 76 common frames omitted
+
+2023-12-21T10:01:44.932-05:00 ERROR 54896 --- [main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener] to prepare test instance [com.cinchhs.batchprocessdemo.BatchProcessDemoApplicationTests@3b83459e]
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.cinchhs.batchprocessdemo.BatchProcessDemoApplicationTests': Unsatisfied dependency expressed through field 'jobLauncherTestUtils': No qualifying bean of type 'org.springframework.batch.test.JobLauncherTestUtils' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:772) ~[spring-beans-6.1.1.jar:6.1.1]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:752) ~[spring-beans-6.1.1.jar:6.1.1]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145) ~[spring-beans-6.1.1.jar:6.1.1]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:493) ~[spring-beans-6.1.1.jar:6.1.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1420) ~[spring-beans-6.1.1.jar:6.1.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:397) ~[spring-beans-6.1.1.jar:6.1.1]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:142) ~[spring-test-6.1.1.jar:6.1.1]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:97) ~[spring-test-6.1.1.jar:6.1.1]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:247) ~[spring-test-6.1.1.jar:6.1.1]
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:163) ~[spring-test-6.1.1.jar:6.1.1]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$10(ClassBasedTestDescriptor.java:378) ~[junit-jupiter-engine-5.10.1.jar:5.10.1]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:383) ~[junit-jupiter-engine-5.10.1.jar:5.10.1]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$11(ClassBasedTestDescriptor.java:378) ~[junit-jupiter-engine-5.10.1.jar:5.10.1]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[na:na]
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310) ~[na:na]
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735) ~[na:na]
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[na:na]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:377) ~[junit-jupiter-engine-5.10.1.jar:5.10.1]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:290) ~[junit-jupiter-engine-5.10.1.jar:5.10.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:289) ~[junit-jupiter-engine-5.10.1.jar:5.10.1]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:279) ~[junit-jupiter-engine-5.10.1.jar:5.10.1]
+	at java.base/java.util.Optional.orElseGet(Optional.java:364) ~[na:na]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:278) ~[junit-jupiter-engine-5.10.1.jar:5.10.1]
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31) ~[junit-jupiter-engine-5.10.1.jar:5.10.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106) ~[junit-jupiter-engine-5.10.1.jar:5.10.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105) ~[junit-jupiter-engine-5.10.1.jar:5.10.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.10.1.jar:5.10.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:123) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:123) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:90) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198) ~[junit-platform-launcher-1.10.1.jar:1.10.1]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169) ~[junit-platform-launcher-1.10.1.jar:1.10.1]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93) ~[junit-platform-launcher-1.10.1.jar:1.10.1]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58) ~[junit-platform-launcher-1.10.1.jar:1.10.1]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141) ~[junit-platform-launcher-1.10.1.jar:1.10.1]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57) ~[junit-platform-launcher-1.10.1.jar:1.10.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103) ~[junit-platform-launcher-1.10.1.jar:1.10.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85) ~[junit-platform-launcher-1.10.1.jar:1.10.1]
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47) ~[junit-platform-launcher-1.10.1.jar:1.10.1]
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63) ~[junit-platform-launcher-1.10.1.jar:1.10.1]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57) ~[junit5-rt.jar:na]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38) ~[junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11) ~[idea_rt.jar:na]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35) ~[junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235) ~[junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54) ~[junit-rt.jar:na]
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.batch.test.JobLauncherTestUtils' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1878) ~[spring-beans-6.1.1.jar:6.1.1]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1404) ~[spring-beans-6.1.1.jar:6.1.1]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1348) ~[spring-beans-6.1.1.jar:6.1.1]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:769) ~[spring-beans-6.1.1.jar:6.1.1]
+	... 76 common frames omitted
+
+2023-12-21T10:19:59.882-05:00  INFO 106060 --- [main] c.c.b.BatchProcessDemoApplicationTests   : Starting BatchProcessDemoApplicationTests using Java 17.0.9 with PID 106060 (started by lcrosby in C:\Users\lcrosby\tutorials\spring-batch\batch-process-demo)
+2023-12-21T10:19:59.884-05:00  INFO 106060 --- [main] c.c.b.BatchProcessDemoApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2023-12-21T10:20:01.414-05:00  INFO 106060 --- [main] c.c.b.BatchProcessDemoApplicationTests   : Started BatchProcessDemoApplicationTests in 1.898 seconds (process running for 3.149)
+2023-12-21T10:20:01.519-05:00  INFO 106060 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Gleadall, lastName=Barry] into Person[firstName=GLEADALL, lastName=BARRY]
+2023-12-21T10:20:01.525-05:00  INFO 106060 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Tessely, lastName=Ron] into Person[firstName=TESSELY, lastName=RON]
+2023-12-21T10:20:01.525-05:00  INFO 106060 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Gayden, lastName=Audrey] into Person[firstName=GAYDEN, lastName=AUDREY]
+2023-12-21T10:20:01.539-05:00  INFO 106060 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Jullapally, lastName=Devender] into Person[firstName=JULLAPALLY, lastName=DEVENDER]
+2023-12-21T10:20:01.540-05:00  INFO 106060 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Fnu, lastName=Himani] into Person[firstName=FNU, lastName=HIMANI]
+2023-12-21T10:20:01.540-05:00  INFO 106060 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Xia, lastName=Jin] into Person[firstName=XIA, lastName=JIN]
+2023-12-21T10:20:01.546-05:00  INFO 106060 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Crosby, lastName=Luis] into Person[firstName=CROSBY, lastName=LUIS]
+2023-12-21T10:20:01.547-05:00  INFO 106060 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Shanmugasundaram, lastName=Pradeepa] into Person[firstName=SHANMUGASUNDARAM, lastName=PRADEEPA]
+2023-12-21T10:20:01.547-05:00  INFO 106060 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Cabello, lastName=Ernesto] into Person[firstName=CABELLO, lastName=ERNESTO]
+2023-12-21T10:20:01.552-05:00  INFO 106060 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Zamora, lastName=Diana] into Person[firstName=ZAMORA, lastName=DIANA]
+2023-12-21T10:20:01.552-05:00  INFO 106060 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Ominsky, lastName=Sammy] into Person[firstName=OMINSKY, lastName=SAMMY]
+2023-12-21T10:20:01.562-05:00  INFO 106060 --- [main] c.c.b.JobCompletionNotificationListener  : Job is completed!!!
+2023-12-21T10:20:01.568-05:00  INFO 106060 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=GLEADALL, lastName=BARRY]}> in the database
+2023-12-21T10:20:01.569-05:00  INFO 106060 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=TESSELY, lastName=RON]}> in the database
+2023-12-21T10:20:01.569-05:00  INFO 106060 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=GAYDEN, lastName=AUDREY]}> in the database
+2023-12-21T10:20:01.569-05:00  INFO 106060 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=JULLAPALLY, lastName=DEVENDER]}> in the database
+2023-12-21T10:20:01.569-05:00  INFO 106060 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=FNU, lastName=HIMANI]}> in the database
+2023-12-21T10:20:01.569-05:00  INFO 106060 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=XIA, lastName=JIN]}> in the database
+2023-12-21T10:20:01.569-05:00  INFO 106060 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=CROSBY, lastName=LUIS]}> in the database
+2023-12-21T10:20:01.569-05:00  INFO 106060 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=SHANMUGASUNDARAM, lastName=PRADEEPA]}> in the database
+2023-12-21T10:20:01.569-05:00  INFO 106060 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=CABELLO, lastName=ERNESTO]}> in the database
+2023-12-21T10:20:01.570-05:00  INFO 106060 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=ZAMORA, lastName=DIANA]}> in the database
+2023-12-21T10:20:01.570-05:00  INFO 106060 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=OMINSKY, lastName=SAMMY]}> in the database
+2023-12-21T10:20:01.576-05:00 ERROR 106060 --- [main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener] to prepare test instance [com.cinchhs.batchprocessdemo.BatchProcessDemoApplicationTests@2703d91]
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.cinchhs.batchprocessdemo.BatchProcessDemoApplicationTests': Unsatisfied dependency expressed through field 'jobLauncherTestUtils': No qualifying bean of type 'org.springframework.batch.test.JobLauncherTestUtils' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:772) ~[spring-beans-6.1.1.jar:6.1.1]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:752) ~[spring-beans-6.1.1.jar:6.1.1]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145) ~[spring-beans-6.1.1.jar:6.1.1]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:493) ~[spring-beans-6.1.1.jar:6.1.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1420) ~[spring-beans-6.1.1.jar:6.1.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:397) ~[spring-beans-6.1.1.jar:6.1.1]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:142) ~[spring-test-6.1.1.jar:6.1.1]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:97) ~[spring-test-6.1.1.jar:6.1.1]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:247) ~[spring-test-6.1.1.jar:6.1.1]
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:163) ~[spring-test-6.1.1.jar:6.1.1]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$10(ClassBasedTestDescriptor.java:378) ~[junit-jupiter-engine-5.10.1.jar:5.10.1]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:383) ~[junit-jupiter-engine-5.10.1.jar:5.10.1]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$11(ClassBasedTestDescriptor.java:378) ~[junit-jupiter-engine-5.10.1.jar:5.10.1]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[na:na]
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310) ~[na:na]
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735) ~[na:na]
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[na:na]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:377) ~[junit-jupiter-engine-5.10.1.jar:5.10.1]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:290) ~[junit-jupiter-engine-5.10.1.jar:5.10.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:289) ~[junit-jupiter-engine-5.10.1.jar:5.10.1]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:279) ~[junit-jupiter-engine-5.10.1.jar:5.10.1]
+	at java.base/java.util.Optional.orElseGet(Optional.java:364) ~[na:na]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:278) ~[junit-jupiter-engine-5.10.1.jar:5.10.1]
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31) ~[junit-jupiter-engine-5.10.1.jar:5.10.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106) ~[junit-jupiter-engine-5.10.1.jar:5.10.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105) ~[junit-jupiter-engine-5.10.1.jar:5.10.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.10.1.jar:5.10.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:123) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:123) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:90) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198) ~[junit-platform-launcher-1.10.1.jar:1.10.1]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169) ~[junit-platform-launcher-1.10.1.jar:1.10.1]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93) ~[junit-platform-launcher-1.10.1.jar:1.10.1]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58) ~[junit-platform-launcher-1.10.1.jar:1.10.1]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141) ~[junit-platform-launcher-1.10.1.jar:1.10.1]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57) ~[junit-platform-launcher-1.10.1.jar:1.10.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103) ~[junit-platform-launcher-1.10.1.jar:1.10.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85) ~[junit-platform-launcher-1.10.1.jar:1.10.1]
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47) ~[junit-platform-launcher-1.10.1.jar:1.10.1]
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63) ~[junit-platform-launcher-1.10.1.jar:1.10.1]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57) ~[junit5-rt.jar:na]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38) ~[junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11) ~[idea_rt.jar:na]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35) ~[junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235) ~[junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54) ~[junit-rt.jar:na]
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.batch.test.JobLauncherTestUtils' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1878) ~[spring-beans-6.1.1.jar:6.1.1]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1404) ~[spring-beans-6.1.1.jar:6.1.1]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1348) ~[spring-beans-6.1.1.jar:6.1.1]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:769) ~[spring-beans-6.1.1.jar:6.1.1]
+	... 76 common frames omitted
+
+2023-12-21T10:20:01.605-05:00 ERROR 106060 --- [main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener] to prepare test instance [com.cinchhs.batchprocessdemo.BatchProcessDemoApplicationTests@416d56f2]
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.cinchhs.batchprocessdemo.BatchProcessDemoApplicationTests': Unsatisfied dependency expressed through field 'jobLauncherTestUtils': No qualifying bean of type 'org.springframework.batch.test.JobLauncherTestUtils' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:772) ~[spring-beans-6.1.1.jar:6.1.1]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:752) ~[spring-beans-6.1.1.jar:6.1.1]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145) ~[spring-beans-6.1.1.jar:6.1.1]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:493) ~[spring-beans-6.1.1.jar:6.1.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1420) ~[spring-beans-6.1.1.jar:6.1.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:397) ~[spring-beans-6.1.1.jar:6.1.1]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:142) ~[spring-test-6.1.1.jar:6.1.1]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:97) ~[spring-test-6.1.1.jar:6.1.1]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:247) ~[spring-test-6.1.1.jar:6.1.1]
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:163) ~[spring-test-6.1.1.jar:6.1.1]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$10(ClassBasedTestDescriptor.java:378) ~[junit-jupiter-engine-5.10.1.jar:5.10.1]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:383) ~[junit-jupiter-engine-5.10.1.jar:5.10.1]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$11(ClassBasedTestDescriptor.java:378) ~[junit-jupiter-engine-5.10.1.jar:5.10.1]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[na:na]
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310) ~[na:na]
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735) ~[na:na]
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[na:na]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:377) ~[junit-jupiter-engine-5.10.1.jar:5.10.1]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:290) ~[junit-jupiter-engine-5.10.1.jar:5.10.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:289) ~[junit-jupiter-engine-5.10.1.jar:5.10.1]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:279) ~[junit-jupiter-engine-5.10.1.jar:5.10.1]
+	at java.base/java.util.Optional.orElseGet(Optional.java:364) ~[na:na]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:278) ~[junit-jupiter-engine-5.10.1.jar:5.10.1]
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31) ~[junit-jupiter-engine-5.10.1.jar:5.10.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106) ~[junit-jupiter-engine-5.10.1.jar:5.10.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105) ~[junit-jupiter-engine-5.10.1.jar:5.10.1]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.10.1.jar:5.10.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:123) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:123) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:90) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.10.1.jar:1.10.1]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198) ~[junit-platform-launcher-1.10.1.jar:1.10.1]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169) ~[junit-platform-launcher-1.10.1.jar:1.10.1]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93) ~[junit-platform-launcher-1.10.1.jar:1.10.1]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58) ~[junit-platform-launcher-1.10.1.jar:1.10.1]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141) ~[junit-platform-launcher-1.10.1.jar:1.10.1]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57) ~[junit-platform-launcher-1.10.1.jar:1.10.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103) ~[junit-platform-launcher-1.10.1.jar:1.10.1]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85) ~[junit-platform-launcher-1.10.1.jar:1.10.1]
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47) ~[junit-platform-launcher-1.10.1.jar:1.10.1]
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63) ~[junit-platform-launcher-1.10.1.jar:1.10.1]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57) ~[junit5-rt.jar:na]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38) ~[junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11) ~[idea_rt.jar:na]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35) ~[junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235) ~[junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54) ~[junit-rt.jar:na]
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.batch.test.JobLauncherTestUtils' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1878) ~[spring-beans-6.1.1.jar:6.1.1]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1404) ~[spring-beans-6.1.1.jar:6.1.1]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1348) ~[spring-beans-6.1.1.jar:6.1.1]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:769) ~[spring-beans-6.1.1.jar:6.1.1]
+	... 76 common frames omitted
+
+2023-12-21T10:24:01.189-05:00  INFO 121712 --- [main] c.c.b.BatchProcessDemoApplicationTests   : Starting BatchProcessDemoApplicationTests using Java 17.0.9 with PID 121712 (started by lcrosby in C:\Users\lcrosby\tutorials\spring-batch\batch-process-demo)
+2023-12-21T10:24:01.190-05:00  INFO 121712 --- [main] c.c.b.BatchProcessDemoApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2023-12-21T10:24:02.453-05:00  INFO 121712 --- [main] c.c.b.BatchProcessDemoApplicationTests   : Started BatchProcessDemoApplicationTests in 1.617 seconds (process running for 2.764)
+2023-12-21T10:24:02.536-05:00  INFO 121712 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Gleadall, lastName=Barry] into Person[firstName=GLEADALL, lastName=BARRY]
+2023-12-21T10:24:02.540-05:00  INFO 121712 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Tessely, lastName=Ron] into Person[firstName=TESSELY, lastName=RON]
+2023-12-21T10:24:02.541-05:00  INFO 121712 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Gayden, lastName=Audrey] into Person[firstName=GAYDEN, lastName=AUDREY]
+2023-12-21T10:24:02.551-05:00  INFO 121712 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Jullapally, lastName=Devender] into Person[firstName=JULLAPALLY, lastName=DEVENDER]
+2023-12-21T10:24:02.552-05:00  INFO 121712 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Fnu, lastName=Himani] into Person[firstName=FNU, lastName=HIMANI]
+2023-12-21T10:24:02.552-05:00  INFO 121712 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Xia, lastName=Jin] into Person[firstName=XIA, lastName=JIN]
+2023-12-21T10:24:02.556-05:00  INFO 121712 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Crosby, lastName=Luis] into Person[firstName=CROSBY, lastName=LUIS]
+2023-12-21T10:24:02.556-05:00  INFO 121712 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Shanmugasundaram, lastName=Pradeepa] into Person[firstName=SHANMUGASUNDARAM, lastName=PRADEEPA]
+2023-12-21T10:24:02.556-05:00  INFO 121712 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Cabello, lastName=Ernesto] into Person[firstName=CABELLO, lastName=ERNESTO]
+2023-12-21T10:24:02.560-05:00  INFO 121712 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Zamora, lastName=Diana] into Person[firstName=ZAMORA, lastName=DIANA]
+2023-12-21T10:24:02.561-05:00  INFO 121712 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Ominsky, lastName=Sammy] into Person[firstName=OMINSKY, lastName=SAMMY]
+2023-12-21T10:24:02.568-05:00  INFO 121712 --- [main] c.c.b.JobCompletionNotificationListener  : Job is completed!!!
+2023-12-21T10:24:02.573-05:00  INFO 121712 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=GLEADALL, lastName=BARRY]}> in the database
+2023-12-21T10:24:02.574-05:00  INFO 121712 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=TESSELY, lastName=RON]}> in the database
+2023-12-21T10:24:02.574-05:00  INFO 121712 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=GAYDEN, lastName=AUDREY]}> in the database
+2023-12-21T10:24:02.574-05:00  INFO 121712 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=JULLAPALLY, lastName=DEVENDER]}> in the database
+2023-12-21T10:24:02.574-05:00  INFO 121712 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=FNU, lastName=HIMANI]}> in the database
+2023-12-21T10:24:02.574-05:00  INFO 121712 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=XIA, lastName=JIN]}> in the database
+2023-12-21T10:24:02.574-05:00  INFO 121712 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=CROSBY, lastName=LUIS]}> in the database
+2023-12-21T10:24:02.575-05:00  INFO 121712 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=SHANMUGASUNDARAM, lastName=PRADEEPA]}> in the database
+2023-12-21T10:24:02.575-05:00  INFO 121712 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=CABELLO, lastName=ERNESTO]}> in the database
+2023-12-21T10:24:02.575-05:00  INFO 121712 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=ZAMORA, lastName=DIANA]}> in the database
+2023-12-21T10:24:02.575-05:00  INFO 121712 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=OMINSKY, lastName=SAMMY]}> in the database
+2023-12-21T10:24:03.342-05:00  INFO 121712 --- [main] c.c.b.JobCompletionNotificationListener  : Job is completed!!!
+2023-12-21T10:24:03.344-05:00  INFO 121712 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=GLEADALL, lastName=BARRY]}> in the database
+2023-12-21T10:24:03.344-05:00  INFO 121712 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=TESSELY, lastName=RON]}> in the database
+2023-12-21T10:24:03.344-05:00  INFO 121712 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=GAYDEN, lastName=AUDREY]}> in the database
+2023-12-21T10:24:03.344-05:00  INFO 121712 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=JULLAPALLY, lastName=DEVENDER]}> in the database
+2023-12-21T10:24:03.344-05:00  INFO 121712 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=FNU, lastName=HIMANI]}> in the database
+2023-12-21T10:24:03.344-05:00  INFO 121712 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=XIA, lastName=JIN]}> in the database
+2023-12-21T10:24:03.344-05:00  INFO 121712 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=CROSBY, lastName=LUIS]}> in the database
+2023-12-21T10:24:03.345-05:00  INFO 121712 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=SHANMUGASUNDARAM, lastName=PRADEEPA]}> in the database
+2023-12-21T10:24:03.345-05:00  INFO 121712 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=CABELLO, lastName=ERNESTO]}> in the database
+2023-12-21T10:24:03.345-05:00  INFO 121712 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=ZAMORA, lastName=DIANA]}> in the database
+2023-12-21T10:24:03.345-05:00  INFO 121712 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=OMINSKY, lastName=SAMMY]}> in the database
+2023-12-21T10:24:37.040-05:00  INFO 115112 --- [main] c.c.b.BatchProcessDemoApplicationTests   : Starting BatchProcessDemoApplicationTests using Java 17.0.9 with PID 115112 (started by lcrosby in C:\Users\lcrosby\tutorials\spring-batch\batch-process-demo)
+2023-12-21T10:24:37.040-05:00  INFO 115112 --- [main] c.c.b.BatchProcessDemoApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2023-12-21T10:24:38.313-05:00  INFO 115112 --- [main] c.c.b.BatchProcessDemoApplicationTests   : Started BatchProcessDemoApplicationTests in 1.601 seconds (process running for 2.575)
+2023-12-21T10:24:38.401-05:00  INFO 115112 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Gleadall, lastName=Barry] into Person[firstName=GLEADALL, lastName=BARRY]
+2023-12-21T10:24:38.405-05:00  INFO 115112 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Tessely, lastName=Ron] into Person[firstName=TESSELY, lastName=RON]
+2023-12-21T10:24:38.405-05:00  INFO 115112 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Gayden, lastName=Audrey] into Person[firstName=GAYDEN, lastName=AUDREY]
+2023-12-21T10:24:38.417-05:00  INFO 115112 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Jullapally, lastName=Devender] into Person[firstName=JULLAPALLY, lastName=DEVENDER]
+2023-12-21T10:24:38.417-05:00  INFO 115112 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Fnu, lastName=Himani] into Person[firstName=FNU, lastName=HIMANI]
+2023-12-21T10:24:38.417-05:00  INFO 115112 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Xia, lastName=Jin] into Person[firstName=XIA, lastName=JIN]
+2023-12-21T10:24:38.421-05:00  INFO 115112 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Crosby, lastName=Luis] into Person[firstName=CROSBY, lastName=LUIS]
+2023-12-21T10:24:38.422-05:00  INFO 115112 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Shanmugasundaram, lastName=Pradeepa] into Person[firstName=SHANMUGASUNDARAM, lastName=PRADEEPA]
+2023-12-21T10:24:38.422-05:00  INFO 115112 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Cabello, lastName=Ernesto] into Person[firstName=CABELLO, lastName=ERNESTO]
+2023-12-21T10:24:38.427-05:00  INFO 115112 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Zamora, lastName=Diana] into Person[firstName=ZAMORA, lastName=DIANA]
+2023-12-21T10:24:38.427-05:00  INFO 115112 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Ominsky, lastName=Sammy] into Person[firstName=OMINSKY, lastName=SAMMY]
+2023-12-21T10:24:38.435-05:00  INFO 115112 --- [main] c.c.b.JobCompletionNotificationListener  : Job is completed!!!
+2023-12-21T10:24:38.440-05:00  INFO 115112 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=GLEADALL, lastName=BARRY]}> in the database
+2023-12-21T10:24:38.441-05:00  INFO 115112 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=TESSELY, lastName=RON]}> in the database
+2023-12-21T10:24:38.441-05:00  INFO 115112 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=GAYDEN, lastName=AUDREY]}> in the database
+2023-12-21T10:24:38.441-05:00  INFO 115112 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=JULLAPALLY, lastName=DEVENDER]}> in the database
+2023-12-21T10:24:38.441-05:00  INFO 115112 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=FNU, lastName=HIMANI]}> in the database
+2023-12-21T10:24:38.441-05:00  INFO 115112 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=XIA, lastName=JIN]}> in the database
+2023-12-21T10:24:38.442-05:00  INFO 115112 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=CROSBY, lastName=LUIS]}> in the database
+2023-12-21T10:24:38.442-05:00  INFO 115112 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=SHANMUGASUNDARAM, lastName=PRADEEPA]}> in the database
+2023-12-21T10:24:38.442-05:00  INFO 115112 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=CABELLO, lastName=ERNESTO]}> in the database
+2023-12-21T10:24:38.442-05:00  INFO 115112 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=ZAMORA, lastName=DIANA]}> in the database
+2023-12-21T10:24:38.442-05:00  INFO 115112 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=OMINSKY, lastName=SAMMY]}> in the database
+2023-12-21T10:24:39.095-05:00  INFO 115112 --- [main] c.c.b.JobCompletionNotificationListener  : Job is completed!!!
+2023-12-21T10:24:39.096-05:00  INFO 115112 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=GLEADALL, lastName=BARRY]}> in the database
+2023-12-21T10:24:39.097-05:00  INFO 115112 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=TESSELY, lastName=RON]}> in the database
+2023-12-21T10:24:39.097-05:00  INFO 115112 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=GAYDEN, lastName=AUDREY]}> in the database
+2023-12-21T10:24:39.097-05:00  INFO 115112 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=JULLAPALLY, lastName=DEVENDER]}> in the database
+2023-12-21T10:24:39.097-05:00  INFO 115112 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=FNU, lastName=HIMANI]}> in the database
+2023-12-21T10:24:39.097-05:00  INFO 115112 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=XIA, lastName=JIN]}> in the database
+2023-12-21T10:24:39.097-05:00  INFO 115112 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=CROSBY, lastName=LUIS]}> in the database
+2023-12-21T10:24:39.097-05:00  INFO 115112 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=SHANMUGASUNDARAM, lastName=PRADEEPA]}> in the database
+2023-12-21T10:24:39.097-05:00  INFO 115112 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=CABELLO, lastName=ERNESTO]}> in the database
+2023-12-21T10:24:39.097-05:00  INFO 115112 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=ZAMORA, lastName=DIANA]}> in the database
+2023-12-21T10:24:39.097-05:00  INFO 115112 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=OMINSKY, lastName=SAMMY]}> in the database
+2023-12-21T10:25:11.497-05:00  INFO 117896 --- [main] c.c.b.BatchProcessDemoApplicationTests   : Starting BatchProcessDemoApplicationTests using Java 17.0.9 with PID 117896 (started by lcrosby in C:\Users\lcrosby\tutorials\spring-batch\batch-process-demo)
+2023-12-21T10:25:11.499-05:00  INFO 117896 --- [main] c.c.b.BatchProcessDemoApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2023-12-21T10:25:12.736-05:00  INFO 117896 --- [main] c.c.b.BatchProcessDemoApplicationTests   : Started BatchProcessDemoApplicationTests in 1.551 seconds (process running for 2.504)
+2023-12-21T10:25:12.819-05:00  INFO 117896 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Gleadall, lastName=Barry] into Person[firstName=GLEADALL, lastName=BARRY]
+2023-12-21T10:25:12.823-05:00  INFO 117896 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Tessely, lastName=Ron] into Person[firstName=TESSELY, lastName=RON]
+2023-12-21T10:25:12.824-05:00  INFO 117896 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Gayden, lastName=Audrey] into Person[firstName=GAYDEN, lastName=AUDREY]
+2023-12-21T10:25:12.835-05:00  INFO 117896 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Jullapally, lastName=Devender] into Person[firstName=JULLAPALLY, lastName=DEVENDER]
+2023-12-21T10:25:12.835-05:00  INFO 117896 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Fnu, lastName=Himani] into Person[firstName=FNU, lastName=HIMANI]
+2023-12-21T10:25:12.836-05:00  INFO 117896 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Xia, lastName=Jin] into Person[firstName=XIA, lastName=JIN]
+2023-12-21T10:25:12.840-05:00  INFO 117896 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Crosby, lastName=Luis] into Person[firstName=CROSBY, lastName=LUIS]
+2023-12-21T10:25:12.840-05:00  INFO 117896 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Shanmugasundaram, lastName=Pradeepa] into Person[firstName=SHANMUGASUNDARAM, lastName=PRADEEPA]
+2023-12-21T10:25:12.840-05:00  INFO 117896 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Cabello, lastName=Ernesto] into Person[firstName=CABELLO, lastName=ERNESTO]
+2023-12-21T10:25:12.844-05:00  INFO 117896 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Zamora, lastName=Diana] into Person[firstName=ZAMORA, lastName=DIANA]
+2023-12-21T10:25:12.845-05:00  INFO 117896 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Ominsky, lastName=Sammy] into Person[firstName=OMINSKY, lastName=SAMMY]
+2023-12-21T10:25:12.853-05:00  INFO 117896 --- [main] c.c.b.JobCompletionNotificationListener  : Job is completed!!!
+2023-12-21T10:25:12.857-05:00  INFO 117896 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=GLEADALL, lastName=BARRY]}> in the database
+2023-12-21T10:25:12.858-05:00  INFO 117896 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=TESSELY, lastName=RON]}> in the database
+2023-12-21T10:25:12.858-05:00  INFO 117896 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=GAYDEN, lastName=AUDREY]}> in the database
+2023-12-21T10:25:12.858-05:00  INFO 117896 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=JULLAPALLY, lastName=DEVENDER]}> in the database
+2023-12-21T10:25:12.858-05:00  INFO 117896 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=FNU, lastName=HIMANI]}> in the database
+2023-12-21T10:25:12.858-05:00  INFO 117896 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=XIA, lastName=JIN]}> in the database
+2023-12-21T10:25:12.858-05:00  INFO 117896 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=CROSBY, lastName=LUIS]}> in the database
+2023-12-21T10:25:12.858-05:00  INFO 117896 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=SHANMUGASUNDARAM, lastName=PRADEEPA]}> in the database
+2023-12-21T10:25:12.859-05:00  INFO 117896 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=CABELLO, lastName=ERNESTO]}> in the database
+2023-12-21T10:25:12.859-05:00  INFO 117896 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=ZAMORA, lastName=DIANA]}> in the database
+2023-12-21T10:25:12.859-05:00  INFO 117896 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=OMINSKY, lastName=SAMMY]}> in the database
+2023-12-21T10:25:13.552-05:00  INFO 117896 --- [main] c.c.b.JobCompletionNotificationListener  : Job is completed!!!
+2023-12-21T10:25:13.553-05:00  INFO 117896 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=GLEADALL, lastName=BARRY]}> in the database
+2023-12-21T10:25:13.553-05:00  INFO 117896 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=TESSELY, lastName=RON]}> in the database
+2023-12-21T10:25:13.553-05:00  INFO 117896 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=GAYDEN, lastName=AUDREY]}> in the database
+2023-12-21T10:25:13.553-05:00  INFO 117896 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=JULLAPALLY, lastName=DEVENDER]}> in the database
+2023-12-21T10:25:13.553-05:00  INFO 117896 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=FNU, lastName=HIMANI]}> in the database
+2023-12-21T10:25:13.553-05:00  INFO 117896 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=XIA, lastName=JIN]}> in the database
+2023-12-21T10:25:13.553-05:00  INFO 117896 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=CROSBY, lastName=LUIS]}> in the database
+2023-12-21T10:25:13.553-05:00  INFO 117896 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=SHANMUGASUNDARAM, lastName=PRADEEPA]}> in the database
+2023-12-21T10:25:13.553-05:00  INFO 117896 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=CABELLO, lastName=ERNESTO]}> in the database
+2023-12-21T10:25:13.553-05:00  INFO 117896 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=ZAMORA, lastName=DIANA]}> in the database
+2023-12-21T10:25:13.553-05:00  INFO 117896 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=OMINSKY, lastName=SAMMY]}> in the database
+2023-12-21T10:26:13.396-05:00  INFO 51256 --- [main] c.c.b.BatchProcessDemoApplicationTests   : Starting BatchProcessDemoApplicationTests using Java 17.0.9 with PID 51256 (started by lcrosby in C:\Users\lcrosby\tutorials\spring-batch\batch-process-demo)
+2023-12-21T10:26:13.397-05:00  INFO 51256 --- [main] c.c.b.BatchProcessDemoApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2023-12-21T10:26:14.665-05:00  INFO 51256 --- [main] c.c.b.BatchProcessDemoApplicationTests   : Started BatchProcessDemoApplicationTests in 1.565 seconds (process running for 2.518)
+2023-12-21T10:26:14.749-05:00  INFO 51256 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Gleadall, lastName=Barry] into Person[firstName=GLEADALL, lastName=BARRY]
+2023-12-21T10:26:14.753-05:00  INFO 51256 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Tessely, lastName=Ron] into Person[firstName=TESSELY, lastName=RON]
+2023-12-21T10:26:14.754-05:00  INFO 51256 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Gayden, lastName=Audrey] into Person[firstName=GAYDEN, lastName=AUDREY]
+2023-12-21T10:26:14.765-05:00  INFO 51256 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Jullapally, lastName=Devender] into Person[firstName=JULLAPALLY, lastName=DEVENDER]
+2023-12-21T10:26:14.765-05:00  INFO 51256 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Fnu, lastName=Himani] into Person[firstName=FNU, lastName=HIMANI]
+2023-12-21T10:26:14.765-05:00  INFO 51256 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Xia, lastName=Jin] into Person[firstName=XIA, lastName=JIN]
+2023-12-21T10:26:14.769-05:00  INFO 51256 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Crosby, lastName=Luis] into Person[firstName=CROSBY, lastName=LUIS]
+2023-12-21T10:26:14.770-05:00  INFO 51256 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Shanmugasundaram, lastName=Pradeepa] into Person[firstName=SHANMUGASUNDARAM, lastName=PRADEEPA]
+2023-12-21T10:26:14.770-05:00  INFO 51256 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Cabello, lastName=Ernesto] into Person[firstName=CABELLO, lastName=ERNESTO]
+2023-12-21T10:26:14.774-05:00  INFO 51256 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Zamora, lastName=Diana] into Person[firstName=ZAMORA, lastName=DIANA]
+2023-12-21T10:26:14.775-05:00  INFO 51256 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Ominsky, lastName=Sammy] into Person[firstName=OMINSKY, lastName=SAMMY]
+2023-12-21T10:26:14.783-05:00  INFO 51256 --- [main] c.c.b.JobCompletionNotificationListener  : Job is completed!!!
+2023-12-21T10:26:14.787-05:00  INFO 51256 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=GLEADALL, lastName=BARRY]}> in the database
+2023-12-21T10:26:14.788-05:00  INFO 51256 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=TESSELY, lastName=RON]}> in the database
+2023-12-21T10:26:14.788-05:00  INFO 51256 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=GAYDEN, lastName=AUDREY]}> in the database
+2023-12-21T10:26:14.788-05:00  INFO 51256 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=JULLAPALLY, lastName=DEVENDER]}> in the database
+2023-12-21T10:26:14.788-05:00  INFO 51256 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=FNU, lastName=HIMANI]}> in the database
+2023-12-21T10:26:14.788-05:00  INFO 51256 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=XIA, lastName=JIN]}> in the database
+2023-12-21T10:26:14.788-05:00  INFO 51256 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=CROSBY, lastName=LUIS]}> in the database
+2023-12-21T10:26:14.788-05:00  INFO 51256 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=SHANMUGASUNDARAM, lastName=PRADEEPA]}> in the database
+2023-12-21T10:26:14.788-05:00  INFO 51256 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=CABELLO, lastName=ERNESTO]}> in the database
+2023-12-21T10:26:14.788-05:00  INFO 51256 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=ZAMORA, lastName=DIANA]}> in the database
+2023-12-21T10:26:14.788-05:00  INFO 51256 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=OMINSKY, lastName=SAMMY]}> in the database
+2023-12-21T10:26:15.464-05:00  INFO 51256 --- [main] c.c.b.JobCompletionNotificationListener  : Job is completed!!!
+2023-12-21T10:26:15.466-05:00  INFO 51256 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=GLEADALL, lastName=BARRY]}> in the database
+2023-12-21T10:26:15.466-05:00  INFO 51256 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=TESSELY, lastName=RON]}> in the database
+2023-12-21T10:26:15.466-05:00  INFO 51256 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=GAYDEN, lastName=AUDREY]}> in the database
+2023-12-21T10:26:15.466-05:00  INFO 51256 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=JULLAPALLY, lastName=DEVENDER]}> in the database
+2023-12-21T10:26:15.466-05:00  INFO 51256 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=FNU, lastName=HIMANI]}> in the database
+2023-12-21T10:26:15.466-05:00  INFO 51256 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=XIA, lastName=JIN]}> in the database
+2023-12-21T10:26:15.466-05:00  INFO 51256 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=CROSBY, lastName=LUIS]}> in the database
+2023-12-21T10:26:15.467-05:00  INFO 51256 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=SHANMUGASUNDARAM, lastName=PRADEEPA]}> in the database
+2023-12-21T10:26:15.467-05:00  INFO 51256 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=CABELLO, lastName=ERNESTO]}> in the database
+2023-12-21T10:26:15.467-05:00  INFO 51256 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=ZAMORA, lastName=DIANA]}> in the database
+2023-12-21T10:26:15.467-05:00  INFO 51256 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=OMINSKY, lastName=SAMMY]}> in the database
+2023-12-21T10:26:34.726-05:00  INFO 104976 --- [main] c.c.b.BatchProcessDemoApplicationTests   : Starting BatchProcessDemoApplicationTests using Java 17.0.9 with PID 104976 (started by lcrosby in C:\Users\lcrosby\tutorials\spring-batch\batch-process-demo)
+2023-12-21T10:26:34.727-05:00  INFO 104976 --- [main] c.c.b.BatchProcessDemoApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2023-12-21T10:26:36.009-05:00  INFO 104976 --- [main] c.c.b.BatchProcessDemoApplicationTests   : Started BatchProcessDemoApplicationTests in 1.599 seconds (process running for 2.566)
+2023-12-21T10:26:36.097-05:00  INFO 104976 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Gleadall, lastName=Barry] into Person[firstName=GLEADALL, lastName=BARRY]
+2023-12-21T10:26:36.102-05:00  INFO 104976 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Tessely, lastName=Ron] into Person[firstName=TESSELY, lastName=RON]
+2023-12-21T10:26:36.103-05:00  INFO 104976 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Gayden, lastName=Audrey] into Person[firstName=GAYDEN, lastName=AUDREY]
+2023-12-21T10:26:36.113-05:00  INFO 104976 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Jullapally, lastName=Devender] into Person[firstName=JULLAPALLY, lastName=DEVENDER]
+2023-12-21T10:26:36.114-05:00  INFO 104976 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Fnu, lastName=Himani] into Person[firstName=FNU, lastName=HIMANI]
+2023-12-21T10:26:36.114-05:00  INFO 104976 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Xia, lastName=Jin] into Person[firstName=XIA, lastName=JIN]
+2023-12-21T10:26:36.118-05:00  INFO 104976 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Crosby, lastName=Luis] into Person[firstName=CROSBY, lastName=LUIS]
+2023-12-21T10:26:36.118-05:00  INFO 104976 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Shanmugasundaram, lastName=Pradeepa] into Person[firstName=SHANMUGASUNDARAM, lastName=PRADEEPA]
+2023-12-21T10:26:36.119-05:00  INFO 104976 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Cabello, lastName=Ernesto] into Person[firstName=CABELLO, lastName=ERNESTO]
+2023-12-21T10:26:36.123-05:00  INFO 104976 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Zamora, lastName=Diana] into Person[firstName=ZAMORA, lastName=DIANA]
+2023-12-21T10:26:36.124-05:00  INFO 104976 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Ominsky, lastName=Sammy] into Person[firstName=OMINSKY, lastName=SAMMY]
+2023-12-21T10:26:36.133-05:00  INFO 104976 --- [main] c.c.b.JobCompletionNotificationListener  : Job is completed!!!
+2023-12-21T10:26:36.138-05:00  INFO 104976 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=GLEADALL, lastName=BARRY]}> in the database
+2023-12-21T10:26:36.138-05:00  INFO 104976 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=TESSELY, lastName=RON]}> in the database
+2023-12-21T10:26:36.139-05:00  INFO 104976 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=GAYDEN, lastName=AUDREY]}> in the database
+2023-12-21T10:26:36.139-05:00  INFO 104976 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=JULLAPALLY, lastName=DEVENDER]}> in the database
+2023-12-21T10:26:36.139-05:00  INFO 104976 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=FNU, lastName=HIMANI]}> in the database
+2023-12-21T10:26:36.139-05:00  INFO 104976 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=XIA, lastName=JIN]}> in the database
+2023-12-21T10:26:36.139-05:00  INFO 104976 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=CROSBY, lastName=LUIS]}> in the database
+2023-12-21T10:26:36.139-05:00  INFO 104976 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=SHANMUGASUNDARAM, lastName=PRADEEPA]}> in the database
+2023-12-21T10:26:36.139-05:00  INFO 104976 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=CABELLO, lastName=ERNESTO]}> in the database
+2023-12-21T10:26:36.139-05:00  INFO 104976 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=ZAMORA, lastName=DIANA]}> in the database
+2023-12-21T10:26:36.139-05:00  INFO 104976 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=OMINSKY, lastName=SAMMY]}> in the database
+2023-12-21T10:26:36.836-05:00  INFO 104976 --- [main] c.c.b.JobCompletionNotificationListener  : Job is completed!!!
+2023-12-21T10:26:36.837-05:00  INFO 104976 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=GLEADALL, lastName=BARRY]}> in the database
+2023-12-21T10:26:36.837-05:00  INFO 104976 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=TESSELY, lastName=RON]}> in the database
+2023-12-21T10:26:36.837-05:00  INFO 104976 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=GAYDEN, lastName=AUDREY]}> in the database
+2023-12-21T10:26:36.837-05:00  INFO 104976 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=JULLAPALLY, lastName=DEVENDER]}> in the database
+2023-12-21T10:26:36.838-05:00  INFO 104976 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=FNU, lastName=HIMANI]}> in the database
+2023-12-21T10:26:36.838-05:00  INFO 104976 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=XIA, lastName=JIN]}> in the database
+2023-12-21T10:26:36.838-05:00  INFO 104976 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=CROSBY, lastName=LUIS]}> in the database
+2023-12-21T10:26:36.838-05:00  INFO 104976 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=SHANMUGASUNDARAM, lastName=PRADEEPA]}> in the database
+2023-12-21T10:26:36.838-05:00  INFO 104976 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=CABELLO, lastName=ERNESTO]}> in the database
+2023-12-21T10:26:36.838-05:00  INFO 104976 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=ZAMORA, lastName=DIANA]}> in the database
+2023-12-21T10:26:36.838-05:00  INFO 104976 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=OMINSKY, lastName=SAMMY]}> in the database
+2023-12-21T10:28:31.897-05:00  INFO 89184 --- [main] c.c.b.BatchProcessDemoApplication        : Starting BatchProcessDemoApplication using Java 17.0.9 with PID 89184 (C:\Users\lcrosby\tutorials\spring-batch\batch-process-demo\target\classes started by lcrosby in C:\Users\lcrosby\tutorials\spring-batch\batch-process-demo)
+2023-12-21T10:28:31.898-05:00  INFO 89184 --- [main] c.c.b.BatchProcessDemoApplication        : No active profile set, falling back to 1 default profile: "default"
+2023-12-21T10:28:32.717-05:00  INFO 89184 --- [main] c.c.b.BatchProcessDemoApplication        : Started BatchProcessDemoApplication in 1.11 seconds (process running for 1.328)
+2023-12-21T10:28:32.783-05:00  INFO 89184 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Gleadall, lastName=Barry] into Person[firstName=GLEADALL, lastName=BARRY]
+2023-12-21T10:28:32.786-05:00  INFO 89184 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Tessely, lastName=Ron] into Person[firstName=TESSELY, lastName=RON]
+2023-12-21T10:28:32.786-05:00  INFO 89184 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Gayden, lastName=Audrey] into Person[firstName=GAYDEN, lastName=AUDREY]
+2023-12-21T10:28:32.793-05:00  INFO 89184 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Jullapally, lastName=Devender] into Person[firstName=JULLAPALLY, lastName=DEVENDER]
+2023-12-21T10:28:32.793-05:00  INFO 89184 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Fnu, lastName=Himani] into Person[firstName=FNU, lastName=HIMANI]
+2023-12-21T10:28:32.793-05:00  INFO 89184 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Xia, lastName=Jin] into Person[firstName=XIA, lastName=JIN]
+2023-12-21T10:28:32.795-05:00  INFO 89184 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Crosby, lastName=Luis] into Person[firstName=CROSBY, lastName=LUIS]
+2023-12-21T10:28:32.796-05:00  INFO 89184 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Shanmugasundaram, lastName=Pradeepa] into Person[firstName=SHANMUGASUNDARAM, lastName=PRADEEPA]
+2023-12-21T10:28:32.796-05:00  INFO 89184 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Cabello, lastName=Ernesto] into Person[firstName=CABELLO, lastName=ERNESTO]
+2023-12-21T10:28:32.798-05:00  INFO 89184 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Zamora, lastName=Diana] into Person[firstName=ZAMORA, lastName=DIANA]
+2023-12-21T10:28:32.798-05:00  INFO 89184 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Ominsky, lastName=Sammy] into Person[firstName=OMINSKY, lastName=SAMMY]
+2023-12-21T10:28:32.802-05:00  INFO 89184 --- [main] c.c.b.JobCompletionNotificationListener  : Job is completed!!!
+2023-12-21T10:28:32.805-05:00  INFO 89184 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=GLEADALL, lastName=BARRY]}> in the database
+2023-12-21T10:28:32.806-05:00  INFO 89184 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=TESSELY, lastName=RON]}> in the database
+2023-12-21T10:28:32.806-05:00  INFO 89184 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=GAYDEN, lastName=AUDREY]}> in the database
+2023-12-21T10:28:32.806-05:00  INFO 89184 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=JULLAPALLY, lastName=DEVENDER]}> in the database
+2023-12-21T10:28:32.806-05:00  INFO 89184 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=FNU, lastName=HIMANI]}> in the database
+2023-12-21T10:28:32.806-05:00  INFO 89184 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=XIA, lastName=JIN]}> in the database
+2023-12-21T10:28:32.806-05:00  INFO 89184 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=CROSBY, lastName=LUIS]}> in the database
+2023-12-21T10:28:32.806-05:00  INFO 89184 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=SHANMUGASUNDARAM, lastName=PRADEEPA]}> in the database
+2023-12-21T10:28:32.806-05:00  INFO 89184 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=CABELLO, lastName=ERNESTO]}> in the database
+2023-12-21T10:28:32.806-05:00  INFO 89184 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=ZAMORA, lastName=DIANA]}> in the database
+2023-12-21T10:28:32.807-05:00  INFO 89184 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=OMINSKY, lastName=SAMMY]}> in the database
+2023-12-21T10:28:44.692-05:00  INFO 59944 --- [main] c.c.b.BatchProcessDemoApplicationTests   : Starting BatchProcessDemoApplicationTests using Java 17.0.9 with PID 59944 (started by lcrosby in C:\Users\lcrosby\tutorials\spring-batch\batch-process-demo)
+2023-12-21T10:28:44.694-05:00  INFO 59944 --- [main] c.c.b.BatchProcessDemoApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2023-12-21T10:28:45.959-05:00  INFO 59944 --- [main] c.c.b.BatchProcessDemoApplicationTests   : Started BatchProcessDemoApplicationTests in 1.575 seconds (process running for 2.487)
+2023-12-21T10:28:46.049-05:00  INFO 59944 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Gleadall, lastName=Barry] into Person[firstName=GLEADALL, lastName=BARRY]
+2023-12-21T10:28:46.055-05:00  INFO 59944 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Tessely, lastName=Ron] into Person[firstName=TESSELY, lastName=RON]
+2023-12-21T10:28:46.055-05:00  INFO 59944 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Gayden, lastName=Audrey] into Person[firstName=GAYDEN, lastName=AUDREY]
+2023-12-21T10:28:46.066-05:00  INFO 59944 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Jullapally, lastName=Devender] into Person[firstName=JULLAPALLY, lastName=DEVENDER]
+2023-12-21T10:28:46.067-05:00  INFO 59944 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Fnu, lastName=Himani] into Person[firstName=FNU, lastName=HIMANI]
+2023-12-21T10:28:46.067-05:00  INFO 59944 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Xia, lastName=Jin] into Person[firstName=XIA, lastName=JIN]
+2023-12-21T10:28:46.071-05:00  INFO 59944 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Crosby, lastName=Luis] into Person[firstName=CROSBY, lastName=LUIS]
+2023-12-21T10:28:46.072-05:00  INFO 59944 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Shanmugasundaram, lastName=Pradeepa] into Person[firstName=SHANMUGASUNDARAM, lastName=PRADEEPA]
+2023-12-21T10:28:46.072-05:00  INFO 59944 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Cabello, lastName=Ernesto] into Person[firstName=CABELLO, lastName=ERNESTO]
+2023-12-21T10:28:46.076-05:00  INFO 59944 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Zamora, lastName=Diana] into Person[firstName=ZAMORA, lastName=DIANA]
+2023-12-21T10:28:46.076-05:00  INFO 59944 --- [main] c.c.b.PersonItemProcessor                : Converting Person[firstName=Ominsky, lastName=Sammy] into Person[firstName=OMINSKY, lastName=SAMMY]
+2023-12-21T10:28:46.086-05:00  INFO 59944 --- [main] c.c.b.JobCompletionNotificationListener  : Job is completed!!!
+2023-12-21T10:28:46.092-05:00  INFO 59944 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=GLEADALL, lastName=BARRY]}> in the database
+2023-12-21T10:28:46.092-05:00  INFO 59944 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=TESSELY, lastName=RON]}> in the database
+2023-12-21T10:28:46.093-05:00  INFO 59944 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=GAYDEN, lastName=AUDREY]}> in the database
+2023-12-21T10:28:46.093-05:00  INFO 59944 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=JULLAPALLY, lastName=DEVENDER]}> in the database
+2023-12-21T10:28:46.093-05:00  INFO 59944 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=FNU, lastName=HIMANI]}> in the database
+2023-12-21T10:28:46.093-05:00  INFO 59944 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=XIA, lastName=JIN]}> in the database
+2023-12-21T10:28:46.093-05:00  INFO 59944 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=CROSBY, lastName=LUIS]}> in the database
+2023-12-21T10:28:46.094-05:00  INFO 59944 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=SHANMUGASUNDARAM, lastName=PRADEEPA]}> in the database
+2023-12-21T10:28:46.094-05:00  INFO 59944 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=CABELLO, lastName=ERNESTO]}> in the database
+2023-12-21T10:28:46.094-05:00  INFO 59944 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=ZAMORA, lastName=DIANA]}> in the database
+2023-12-21T10:28:46.094-05:00  INFO 59944 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=OMINSKY, lastName=SAMMY]}> in the database
+2023-12-21T10:28:46.823-05:00  INFO 59944 --- [main] c.c.b.JobCompletionNotificationListener  : Job is completed!!!
+2023-12-21T10:28:46.824-05:00  INFO 59944 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=GLEADALL, lastName=BARRY]}> in the database
+2023-12-21T10:28:46.825-05:00  INFO 59944 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=TESSELY, lastName=RON]}> in the database
+2023-12-21T10:28:46.825-05:00  INFO 59944 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=GAYDEN, lastName=AUDREY]}> in the database
+2023-12-21T10:28:46.825-05:00  INFO 59944 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=JULLAPALLY, lastName=DEVENDER]}> in the database
+2023-12-21T10:28:46.825-05:00  INFO 59944 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=FNU, lastName=HIMANI]}> in the database
+2023-12-21T10:28:46.825-05:00  INFO 59944 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=XIA, lastName=JIN]}> in the database
+2023-12-21T10:28:46.825-05:00  INFO 59944 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=CROSBY, lastName=LUIS]}> in the database
+2023-12-21T10:28:46.825-05:00  INFO 59944 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=SHANMUGASUNDARAM, lastName=PRADEEPA]}> in the database
+2023-12-21T10:28:46.826-05:00  INFO 59944 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=CABELLO, lastName=ERNESTO]}> in the database
+2023-12-21T10:28:46.826-05:00  INFO 59944 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=ZAMORA, lastName=DIANA]}> in the database
+2023-12-21T10:28:46.826-05:00  INFO 59944 --- [main] c.c.b.JobCompletionNotificationListener  : Found <{Person[firstName=OMINSKY, lastName=SAMMY]}> in the database

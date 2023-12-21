@@ -1,0 +1,7 @@
+DROP TABLE expert IF EXISTS;
+
+CREATE TABLE expert (
+person_id BIGINT IDENTITY PRIMARY KEY NOT NULL,
+first_name VARCHAR(20),
+last_name  VARCHAR(20)
+);
